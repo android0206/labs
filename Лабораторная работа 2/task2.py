@@ -10,5 +10,5 @@ total_salary = salary * months  # Зарплата за 10 месяцев
 for month in range(0, months):
     total_spend += spend
     spend *= 1 + increase
-money_capital = int(total_spend - total_salary)
+money_capital = int(total_spend - total_salary) + 1
 print(f"Подушка безопасности, чтобы протянуть {months} месяцев без долгов:", money_capital)
